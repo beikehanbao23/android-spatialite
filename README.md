@@ -31,6 +31,22 @@ allprojects {
 compile 'com.github.sevar83:android-spatialite:2.0.0'
 ```
 
+## BUILD 
+v2.0.0 build with android-ndk-r14b
+
+### 问题1
+ 
+  > "A problem occurred starting process 'command 'ndk-build'" 
+
+  ndk-build 未加入到系统变量
+
+  > 编译通过后如何使用 
+
+  https://stackoverflow.com/questions/24357687/how-to-include-so-library-in-android-studio
+
+  http://www.javashuo.com/article/p-nexacefk-oc.html （makeJar）
+
+
 ## EXAMPLE CODE
 There is a very simple and useless example in the `app` module. Another example is the [SpatiAtlas](https://github.com/sevar83/SpatiAtlas) experiment.
 
